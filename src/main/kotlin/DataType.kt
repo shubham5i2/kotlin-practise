@@ -24,4 +24,11 @@ fun main() {
     val doubleMinValue: Double = Double.MIN_VALUE
     val doubleMaxValue: Double = Double.MAX_VALUE
     println("Double MIN value is $doubleMinValue and MAX value is $doubleMaxValue")
+
+    val charValue = 'S'
+    println("My name starts with character $charValue")
+
+    val boolTValue: Boolean = true
+    val boolFValue = false
+    println("$boolTValue or $boolFValue")
 }
