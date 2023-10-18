@@ -1,7 +1,7 @@
 fun main() {
     val number = 18
 
-    //when statement is replacement if switch in Kotlin
+    //when statement is replacement of switch in Kotlin
     when (number) {
         12 -> println("Number is $number")
         7 -> println("Number is $number")
