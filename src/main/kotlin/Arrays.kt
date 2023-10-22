@@ -65,6 +65,12 @@ fun main() {
     val toTypedArray = toIntArray.toTypedArray() //converted back to type: Array<Int>
     println(toIntArray.joinToString())
     println(toTypedArray.joinToString())
+
+    //Spread operator
+    val arrayA = arrayOf(45, 78, 21)
+    val intArray = intArrayOf(2, 5)
+    println(listOf(54, 90, *arrayA)) //[54, 90, 45, 78, 21]
+    println(listOf(54, 90, *intArray.toTypedArray())) //[54, 90, 2, 5]
 }
 
 //when
