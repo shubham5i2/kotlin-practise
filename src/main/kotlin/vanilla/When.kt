@@ -1,3 +1,5 @@
+package vanilla
+
 fun main() {
     val number = 18
 

@@ -1,3 +1,5 @@
+package vanilla
+
 fun main() {
     //try used as expression
     val text = try {

@@ -1,3 +1,5 @@
+package vanilla
+
 fun main() {
     //we need to add ? inorder to tell compiler that we can have value as null
     var firstName: String? = "Shubham"

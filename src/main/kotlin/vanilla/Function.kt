@@ -1,3 +1,5 @@
+package vanilla
+
 fun main() {
     sayHello("Shubham")
     val max = getMax(10, 20)

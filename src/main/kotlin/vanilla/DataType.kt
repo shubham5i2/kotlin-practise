@@ -1,3 +1,5 @@
+package vanilla
+
 fun main() {
     val byteMinValue = Byte.MIN_VALUE
     val byteMaxValue = Byte.MAX_VALUE

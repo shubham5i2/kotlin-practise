@@ -1,3 +1,5 @@
+package vanilla
+
 fun main() {
     //print n numbers using '..'
     for (i in 1..10) {

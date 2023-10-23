@@ -1,3 +1,5 @@
+package vanilla
+
 fun main() {
     val names: Array<String> = arrayOf("Shubham", "Lalitha", "Ram")
     val mixedTypeArray = arrayOf("Alex", "Mandeep", 12, 'S', true)

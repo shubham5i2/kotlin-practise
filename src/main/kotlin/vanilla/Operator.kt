@@ -1,3 +1,5 @@
+package vanilla
+
 fun main() {
     val x = 50
     val y = 10

@@ -1,3 +1,5 @@
+package vanilla
+
 fun main() {
 //    val is for constants
     val userName: String = "Shubham"
