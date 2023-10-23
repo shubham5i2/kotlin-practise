@@ -38,6 +38,11 @@ class Bike(private var name: String, model: String, speed: String) {
     var model = model
     var speed = speed
 
+    //initializer block - initiated 1st the moment object is created
+    init {
+        println("Inside init block")
+    }
+
     fun move() {
         println("$name - $model is moving with speed $speed")
     }
