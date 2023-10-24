@@ -26,7 +26,7 @@ class Course(var name: String, var duration: Int = 2) {
     constructor(name: String) : this(name, 3)
 }
 
-class Data(a: String, b: Int) {
+class Data(a: String) {
     var a = a
         //getter and setter
         get() {
