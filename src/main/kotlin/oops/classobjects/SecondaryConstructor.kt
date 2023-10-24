@@ -25,3 +25,14 @@ class User(var name: String, var city: String, var age: Int) {
 class Course(var name: String, var duration: Int = 2) {
     constructor(name: String) : this(name, 3)
 }
+
+class Data(a: String, b: Int) {
+    var a = a
+        //getter and setter
+        get() {
+            return field
+        }
+        set(value) {
+            field = value
+        }
+}
