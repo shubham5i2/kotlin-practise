@@ -37,7 +37,7 @@ class User(var name: String, var city: String) {
     //we need to override hashCode() as well when we override equals()
     override fun hashCode(): Int {
         //no-logic
-        return 0;
+        return 0
     }
 
     override fun toString(): String {
