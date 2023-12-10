@@ -7,7 +7,7 @@ fun main() {
     val user by lazy {
         Lazy("Ram")
     }
-    println(user.name)
+    println(user.name) //object is invoked here(Lazy Initialization)
 }
 
 class Lazy(var name: String) {
