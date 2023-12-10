@@ -6,6 +6,7 @@ fun main() {
 }
 
 class Calculator {
+    //companion object is like 'static' in Java
     companion object {
         fun sum(a: Int, b: Int): Int {
             return a + b
